@@ -1,25 +1,25 @@
-# 📚 University Course & Enrollment Management System  
+# University Course & Enrollment Management System  
 *A MySQL + PHP web app for managing professors, students, courses, and enrollments.*
 
-## 🚀 Overview
+## Overview
 A full-stack database system built by a 3-person team.  
 Includes ER design, relational schema, full DDL, SQL queries, PHP backend, and a working UI deployed on a CSUF Linux server.
 
 ---
 
-## 🏗️ Core Features
+## ore Features
 
-### 👩‍🏫 Professor Tools
+### Professor Tools
 - View assigned classes (titles, rooms, days/times).  
 - Grade distribution for any course section (counts of A, A-, B+, …).
 
-### 🎓 Student Tools
+### Student Tools
 - View course sections (rooms, days/times, enrollment counts).  
 - Student transcript lookup (all courses + grades).
 
 ---
 
-## 🗄️ Database Design
+## Database Design
 Models:
 - **Professors**, **Departments**, **Courses**, **Prerequisites**,  
   **Sections**, **Students**, **Majors/Minors**, **Enrollments**
@@ -36,7 +36,7 @@ Dataset includes:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **MySQL** (schema, DDL, queries)  
 - **PHP** (backend logic & UI)  
 - **HTML/CSS**  
@@ -44,7 +44,7 @@ Dataset includes:
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 - Relational modeling & ER design  
 - SQL joins, grouping, aggregation  
 - PHP full-stack development  
