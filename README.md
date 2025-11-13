@@ -1,111 +1,55 @@
 # 📚 University Course & Enrollment Management System  
-*A full-stack database-driven web application built with MySQL + PHP*
+*A MySQL + PHP web app for managing professors, students, courses, and enrollments.*
 
 ## 🚀 Overview
-This project is a fully functional **web-based university database system** designed to manage professors, departments, courses, students, and enrollments.
-
-Built as part of a collaborative 3-person team, the system demonstrates real-world relational database design, ER modeling, backend development, and frontend interface creation.
-
-The application runs on a secure CSUF department server using **MySQL** and **PHP**, and includes a complete schema, DDL, frontend pages, and backend query logic.
+A full-stack database system built by a 3-person team.  
+Includes ER design, relational schema, full DDL, SQL queries, PHP backend, and a working UI deployed on a CSUF Linux server.
 
 ---
 
-## 🏗️ Features
+## 🏗️ Core Features
 
-### 👩‍🏫 Professor Portal
-- **View Assigned Classes**  
-  Enter a professor’s SSN to list:
-  - Course titles  
-  - Classroom locations  
-  - Meeting days  
-  - Start & end times  
+### 👩‍🏫 Professor Tools
+- View assigned classes (titles, rooms, days/times).  
+- Grade distribution for any course section (counts of A, A-, B+, …).
 
-- **Grade Distribution Report**  
-  Given a course number & section number:
-  - Count how many students earned each grade (A, A-, B+, B, B-, etc.)
-
----
-
-### 🎓 Student Portal
-- **Browse Course Sections**  
-  Enter a course number to display:
-  - All available sections  
-  - Classrooms  
-  - Meeting days & times  
-  - Number of students enrolled in each section  
-
-- **View Student Transcript**  
-  Enter a campus-wide student ID to list:
-  - All completed courses  
-  - Grades earned  
+### 🎓 Student Tools
+- View course sections (rooms, days/times, enrollment counts).  
+- Student transcript lookup (all courses + grades).
 
 ---
 
 ## 🗄️ Database Design
+Models:
+- **Professors**, **Departments**, **Courses**, **Prerequisites**,  
+  **Sections**, **Students**, **Majors/Minors**, **Enrollments**
 
-### 📌 Entities Modeled
-- Professors (SSN, personal details, title, degrees)
-- Departments (name, office, phone, chairperson)
-- Courses (title, textbook, units, prerequisites)
-- Sections (classroom, capacity, instructor, meeting times)
-- Students (name, ID, major, minors, contact info)
-- Enrollments (student, section, grade)
-
-### 📊 Included Project Artifacts
+Artifacts included:
 - ER diagram  
-- Relational schema with PK/FK definitions  
-- Full DDL used to create tables  
-- SQL queries for all required operations  
-- PHP scripts for backend logic and UI  
-- Screenshots of the system running on the CSUF server  
+- Relational schema w/ PKs & FKs  
+- DDL + SQL queries  
+- PHP interface + server-side logic  
+- UI screenshots + sample outputs  
 
-The database includes at least:
-- **8 students**
-- **3 professors**
-- **2 departments**
-- **4 courses**
-- **6 sections**
-- **20+ enrollment records**
+Dataset includes:  
+**8 students • 3 professors • 2 departments • 4 courses • 6 sections • 20+ enrollments**
 
 ---
 
 ## 🛠️ Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| Database | MySQL |
-| Backend | PHP |
-| Frontend | HTML/CSS with PHP templating |
-| Deployment | CSUF Linux server (SSH + VPN) |
-
----
-
-## 📸 Screenshots
-The full report includes:
-- Interfaces for students and professors  
-- Completed queries & results  
-- Sample inputs & outputs  
-- Database test runs from the department server  
-
----
-
-## 👥 Team
-A collaborative project developed by a 3-person team involving:
-- Database design (ERD, schema)  
-- Backend PHP development  
-- Web interface creation  
-- Data entry & validation  
-- Remote server deployment & testing  
+- **MySQL** (schema, DDL, queries)  
+- **PHP** (backend logic & UI)  
+- **HTML/CSS**  
+- **CSUF Linux Server** (SSH/VPN)
 
 ---
 
 ## 🎯 Skills Demonstrated
-- Relational database design (ERD → schema → DDL)
-- SQL joins, aggregation, constraints, and nested queries  
-- PHP server-side scripting  
-- Full-stack web application development  
-- Data integrity and referential design  
-- Working with Linux servers (SSH, permissions)  
-- Team collaboration and documentation
+- Relational modeling & ER design  
+- SQL joins, grouping, aggregation  
+- PHP full-stack development  
+- Data integrity & referential design  
+- Deploying on a remote Linux server  
+- Team-based software development  
 
 ---
