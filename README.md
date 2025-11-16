@@ -7,7 +7,7 @@ Includes ER design, relational schema, full DDL, SQL queries, PHP backend, and a
 
 ---
 
-## ore Features
+## Core Features
 
 ### Professor Tools
 - View assigned classes (titles, rooms, days/times).  
