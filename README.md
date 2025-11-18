@@ -5,6 +5,7 @@
 A full-stack database system built by a 3-person team.  
 Includes ER design, relational schema, full DDL, SQL queries, PHP backend, and a working UI deployed on a CSUF Linux server.
 All in accordance to the [Project Description](DBMS-Project/Project-Description.md).
+
 ---
 
 ## Core Features
