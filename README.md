@@ -23,7 +23,7 @@ All in accordance to the [Project Description](Project-Description.md).
 ## Database Design
 Models:
 - **Professors**, **Departments**, **Courses**, **Prerequisites**,  
-  **Sections**, **Students**, **Majors/Minors**, **Enrollments**
+  **Sections**, **Students**, **Minors**, **Enrollments**, **Degrees**
 
 Artifacts included:
 - ER diagram  
