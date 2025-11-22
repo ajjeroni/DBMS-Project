@@ -1,0 +1,10 @@
+CREATE TABLE DEPARTMENT (
+    D_NUMBER      tinyint UNSIGNED NOT NULL, -- we used tinyint since departments are less than 255
+    D_NAME        VARCHAR(50) NOT NULL,
+    D_LOCATION    VARCHAR(50),
+    D_TELEPHONE   VARCHAR(15),
+    CHAIR_SSN     CHAR(9) NOT NULL,
+
+    PRIMARY KEY (D_NUMBER),
+    FOREIGN KEY (CHAIR_SSN) REFERENCES PROFESSOR(SSN)
+);
