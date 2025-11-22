@@ -10,4 +10,4 @@ To safely test our schema designs, we used **MySQL Workbench** to set up a local
 
 Below is a preview of the GUI and the SQL code used to create the `Professor` schema.
 
-![Alt text for screen readers](assets/sqlworkbench.png)
+![SQL Workbench GUI Preview](../assets/sqlworkbench.png)
