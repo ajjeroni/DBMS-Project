@@ -1,4 +1,4 @@
-# Creating DDL
+# Using DDL
 
 After completing the relational models, the next step is to create the database schemas for our project using **DDL (Data Definition Language)**.  
 As holistic engineers, we understand the importance of testing our designs before deploying them to the production server (CSUF).
